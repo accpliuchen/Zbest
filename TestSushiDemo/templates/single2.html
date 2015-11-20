@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Single</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!--Custom-Theme-files-->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Luxury Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--start-menu-->
+<script src="js/simpleCart.min.js"> </script>
+<link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/memenu.js"></script>
+<script>$(document).ready(function(){$(".memenu").memenu();});</script>	
+<!--dropdown-->
+<script src="js/jquery.easydropdown.js"></script>	
+<script type="text/javascript">
+	$(function() {
+	
+	    var menu_ul = $('.menu_drop > li > ul'),
+	           menu_a  = $('.menu_drop > li > a');
+	    
+	    menu_ul.hide();
+	
+	    menu_a.click(function(e) {
+	        e.preventDefault();
+	        if(!$(this).hasClass('active')) {
+	            menu_a.removeClass('active');
+	            menu_ul.filter(':visible').slideUp('normal');
+	            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+	        } else {
+	            $(this).removeClass('active');
+	            $(this).next().stop(true,true).slideUp('normal');
+	        }
+	    });
+	
+	});
+</script>		
+</head>
+<body> 
+
+	<!--top-header-->
+	<!--start-logo-->
+	<div class="logo">
+		<a href="index.html"><h1>Sushi Food</h1></a>
+	</div>
+	<!--start-logo-->
+	<!--bottom-header-->
+	<div class="header-bottom">
+		<div class="container">
+			<div class="header">
+				<div class="col-md-9 header-left">
+				<div class="top-nav">
+					<ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
+						<li class="grid"><a href="#">Menu</a>
+							<div class="mepanel">
+								<div class="row">
+									<div class="col1 me-one">
+										<h4> </h4>
+										<ul>
+											<li><a href="product1.html">Appetizers</a></li>
+											<li><a href="product2.html">Side orders</a></li>
+											<li><a href="product4.html">Sushi</a></li>
+											<li><a href="product5.html">Roll</a></li>
+											<li><a href="product7.html">Soft drinks</a></li>
+											<li><a href="product8.html">Salad</a></li>
+										</ul>
+									</div>
+									
+								</div>
+							</div>
+						</li>
+						
+						<li class="grid"><a href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--bottom-header-->
+	
+	<!--start-single-->
+	<div class="single contact">
+		<div class="container">
+			<div class="single-main">
+				<div class="col-md-9 single-main-left">
+					<div class="sngl-top">
+						<div class="col-md-12 single-top-left">	
+							<div class="flexslider">
+								  <ul class="slides">
+									<li data-thumb="images/s-1.jpg">
+										<div class="thumb-image"> <img src="images/abt-2.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+									</li>
+								  </ul>
+							</div>
+							<!-- FlexSlider -->
+							<script src="js/imagezoom.js"></script>
+							<script defer src="js/jquery.flexslider.js"></script>
+							<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+							<script>
+							// Can also be used with $(document).ready()
+							$(window).load(function() {
+							  $('.flexslider').flexslider({
+								animation: "slide",
+								controlNav: "thumbnails"
+							  });
+							});
+							</script>
+						</div>	
+					
+						<div class="clearfix"> </div>
+					</div>
+			</div>
+			<div class="col-md-3 single-right">
+				<div class="w_sidebar">
+					<div class="col-md-12 single-top-right">
+						<div class="single-para simpleCart_shelfItem">
+						<h2>Salmon</h2>
+							<div class="star-on">
+								<ul class="star-footer">
+										<li><a href="#"><i> </i></a></li>
+										<li><a href="#"><i> </i></a></li>
+										<li><a href="#"><i> </i></a></li>
+										<li><a href="#"><i> </i></a></li>
+										<li><a href="#"><i> </i></a></li>
+									</ul>
+								<div class="review">
+									<a href="#"> 1 customer review </a>
+									
+								</div>
+							<div class="clearfix"> </div>
+							</div>
+							
+							<h5 class="item_price">$ 35.00</h5>
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+							
+							<ul class="tag-men">
+								<li><span>TAG</span>
+								<span class="women1">: Women,</span></li>
+								<li><span>SKU</span>
+								<span class="women1">: CK09</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--end-single-->
+	<!--information-starts-->
+	<div class="information">
+		<div class="container">
+			<div class="infor-top">
+				<div class="col-md-3 infor-left">
+					<h3>Follow Us</h3>
+					<ul>
+						<li><a href="#"><span class="fb"></span><h6>Facebook</h6></a></li>
+						<li><a href="#"><span class="twit"></span><h6>Twitter</h6></a></li>
+						<li><a href="#"><span class="google"></span><h6>Google+</h6></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 infor-left">
+					<h3>Information</h3>
+					<ul>
+						<li><a href="#"><p>Specials</p></a></li>
+						<li><a href="#"><p>New Products</p></a></li>
+						<li><a href="#"><p>Our Stores</p></a></li>
+						<li><a href="contact.html"><p>Contact Us</p></a></li>
+						<li><a href="#"><p>Top Sellers</p></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 infor-left">
+					<h3>My Account</h3>
+					<ul>
+						<li><a href="account.html"><p>My Account</p></a></li>
+						<li><a href="#"><p>My Credit slips</p></a></li>
+						<li><a href="#"><p>My Merchandise returns</p></a></li>
+						<li><a href="#"><p>My Personal info</p></a></li>
+						<li><a href="#"><p>My Addresses</p></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 infor-left">
+					<h3>Store Information</h3>
+					<h4>The company name,
+						<span>Lorem ipsum dolor,</span>
+						Glasglow Dr 40 Fe 72.</h4>
+					<h5>+955 123 4567</h5>	
+					<p><a href="mailto:example@email.com">contact@example.com</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--information-end-->
+	<!--footer-starts-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-6 footer-left">
+					<form>
+						
+					</form>
+				</div>
+				<div class="col-md-6 footer-right">					
+					<p>Copyright &copy; 2015.Zbestpayment All rights reserved.<a target="_blank" href="http://http://www.zbestpayment.com/">abc</a></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!--footer-end-->	
+</body>
+</html>
